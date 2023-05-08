@@ -120,12 +120,12 @@ ___
 
 Пример
 : Чтобы создать логическую ветку про разработку бота, нужно выполнить SQL запросы:
-
         ```
         INSERT INTO themes (id, theme) VALUES (4, 'разработка ботов');
         INSERT INTO groups (group_name, link, theme_id) VALUES ('TGStat_Bot', 'https://t.me/TGStat_Bot', 4);
         INSERT INTO questions (question, theme_id) VALUES ('Вы разрабатываете ботов?', 4);
         ```
+        
     Изменения будут внесены в базу и видны всем пользователя (без перезапуска бота)
 
 ___
